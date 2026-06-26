@@ -13,6 +13,25 @@ st.set_page_config(
 
 st.title("📸 SnapClean AI")
 
+# ===== 사이드바 추가 =====
+with st.sidebar:
+
+    st.header("👨‍💻 Developer")
+
+    st.write("**Jihyun Jeong**")
+
+    st.write("🏫 SJSU Edge AI Summer Camp 2026")
+
+    st.write("🤖 YOLOv8 + OpenCV")
+
+    st.write("🐍 Python + Streamlit")
+
+    st.markdown("---")
+
+    st.success("Version 1.0")
+
+# ========================
+
 st.write(
     "AI-powered photo organizer that detects objects, "
     "evaluates image quality, and identifies duplicate photos."
@@ -243,6 +262,13 @@ if uploaded_files:
 
 st.markdown("---")
 
-st.caption(
-    "Built with Python, YOLOv8, OpenCV, ImageHash, and Streamlit"
+st.markdown(
+    """
+    <div style="text-align:center; color:gray; font-size:14px;">
+    📸 <b>SnapClean AI</b><br>
+    Made by <b>Jihyun Jeong</b><br>
+    SJSU Edge AI Summer Camp 2026
+    </div>
+    """,
+    unsafe_allow_html=True
 )
