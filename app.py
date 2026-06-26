@@ -28,7 +28,9 @@ with st.sidebar:
 
     st.write("**Polly Pao**")
 
-    st.write("**Team: Error 404: Team Name Not Found**")
+    st.header("👥 Team")
+
+    st.write("**Error 404: Team Name Not Found**")
 
     st.write("🏫 SJSU  Cybersecurity/AI Summer Camp 2026")
 
