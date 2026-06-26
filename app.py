@@ -30,7 +30,7 @@ with st.sidebar:
 
     st.write("**Team: Error 404: Team Name Not Found**")
 
-    st.write("🏫 SJSU Edge AI Summer Camp 2026")
+    st.write("🏫 SJSU  Cybersecurity/AI Summer Camp 2026")
 
     st.write("🤖 YOLOv8 + OpenCV")
 
