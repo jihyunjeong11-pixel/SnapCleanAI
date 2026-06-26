@@ -20,6 +20,16 @@ with st.sidebar:
 
     st.write("**Jihyun Jeong**")
 
+    st.header("👨‍💻 Co-Workers")
+
+    st.write("**Samiah Siddiqua**")
+
+    st.write("**Jahnavi Gupta**")
+
+    st.write("**Polly Pao**")
+
+    st.write("**Team: Error 404: Team Name Not Found**")
+
     st.write("🏫 SJSU Edge AI Summer Camp 2026")
 
     st.write("🤖 YOLOv8 + OpenCV")
